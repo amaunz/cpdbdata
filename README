@@ -1,0 +1,16 @@
+http://www.epa.gov/NCCT/dsstox/sdf_cpdbas.html
+
+|-- README                                                this file
+
+|-- <endpoint>_alt.actives                                sfgm compatible input format (actives)
+|-- <endpoint>_alt.class                                  lazar and libfminer compatible input format (activity)
+|-- <endpoint>_alt.fminer.f6.l2.a.linfrag                 fminer output (min. freq. 6, level 2 (trees), no aromatic perception)
+|-- <endpoint>_alt.gsp                                    gSpan format
+|-- <endpoint>_alt.inactives                              sfgm compatible input format (inactives)
+`-- <endpoint>_alt.smi                                    lazar and libfminer compatible input format (structures)
+
+POSTPROCESSED THE DATA (IMPORTANT)!
+COMMENTS: 
+- Alternative Database (therefore the 'alt' in filenames).
+- See file 'bad.txt' for removed molecules and reasons for removal.
+
